@@ -8,5 +8,14 @@ type Level struct {
 }
 
 func parse(path string) {
+	readMap := map[string]int{
+		" ": FLOOR,
+		".": GOAL,
+		"@": MAN,
+		"+": MONG,
+		"$": BAG,
+		"*": BONG,
+		"#": WALL,
+	}
 
 }
