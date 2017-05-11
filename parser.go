@@ -1,5 +1,6 @@
 package main
 
+// Level of sokoban screen
 type Level struct {
 	Name        string
 	Description string
